@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator Web Preview</title>
+</head>
+<body style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <h1 style="font-size: 40px;">Password Generator Web Preview</h1>
+    <br>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@650&display=swap');
+
+        body {
+            font-family: "Montserrat";
+        }
+
+        button {
+            font-family: "Montserrat";
+            color: white;
+            background-color: rgb(140, 183, 74);
+            border: none;
+            border-radius: 5px;
+            font-size: 20px;
+            padding: 15px 0; /* Increase the padding to match the textarea width */
+            text-align: center; /* Center the text horizontally */
+            width: 100%; /* Extend the width to match the textarea */
+        }
+
+        input {
+            font-family: "Montserrat";
+            font-size: 40px;
+        }
+
+        .invalid-input {
+            color: red;
+            font-size: 30px;
+        }
+
+        h1 {
+            font-size: 30px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-size: 24px;
+        }
+
+        textarea {
+            font-family: "Montserrat";
+            font-size: 18px;
+            height: 100px;
+            width: 100%; /* Match the width of the textarea to the button */
+        }
+    </style>
+
+    <form action="/" method="POST">
+        <div class="form-group">
+            <label for="length">Enter password length (Number Length):</label>
+            <textarea id="length" name="length" rows="3" type="number"></textarea>
+        </div>
+        <button type="submit" id="submit" name="submit">Submit Password Length</button>
+    </form>
+
+    <br>
+    
+    {% if password %}
+        {{ password | safe }}
+    {% elif password != "" %}
+        <p>Your randomly generated password is: {{ password }}</p>
+    {% endif %}
+
+</body>
+</html>
