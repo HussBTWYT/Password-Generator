@@ -1,6 +1,10 @@
 # Password-Generator
 This is a password generator programmed with the Python Programming Language.
 
+# Testing and Use
+You can test the code fully by running the app.py file (while ultimately making sure you have every package in requirements.txt installed), which is a web preview of the code in action using Flask. (HTML, CSS, PYTHON)
+FROM AUTHOR: This project is 100% Open-Source and free of use, however, I would highly appreciate if you could include my name, or this repository if used for public necessities. It's not a must, but a highly appreciated action.
+
 # How it works
 The Password-Generator works by taking the user's input for the desired password length, and then it utilizes the 'random' module in Python to create a randomized password using a predefined set of characters.
 
