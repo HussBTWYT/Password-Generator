@@ -1,5 +1,7 @@
 # Password-Generator 👨‍💻
-This repository is a password generator project programmed with the Python Programming Language. You can access it using main.py or app.py, more information in below:
+This repository is a password generator project programmed with the Python Programming Language. You can access it using main.py or app.py, more information in below. 
+All rights are reserved if certain code of the process (refrence is main.py) is found online. 
+The web preview is completely authorised by the author, and all rights are reserved to him.
 
 # Which File to Use 📂
 The main.py is for the following: Running locally in your console/terminal
