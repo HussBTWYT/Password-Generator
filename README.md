@@ -1,4 +1,4 @@
-<p align="center">
+
 
 # Password-Generator 👨‍💻
 This repository is a password generator project programmed with the Python Programming Language. You can access it using main.py or app.py, more information in below. 
@@ -28,4 +28,3 @@ This happens in order by the following steps:
 6. The password list, which now contains the randomized characters for the password, is converted into a string.
 7. Finally, the generated password is printed to the console.
 
-</p>
