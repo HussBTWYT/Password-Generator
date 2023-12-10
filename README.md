@@ -8,7 +8,7 @@ This repository is a password generator project programmed with the Python Progr
 All rights are reserved if certain code of the process (refrence is main.py) is found online. The web preview is completely authorised by the author, and all rights are reserved to him.         
 
 
-# Which File to Use 📂
+# File Usage
 The main.py is for the following: Running locally in your console/terminal
 The app.py needs to be paired up with the templates folder and made sure all packages are installed in requirements.txt for the following: To run the web preview of the code, using Flask ---> More information in Testing and Use Section
 
